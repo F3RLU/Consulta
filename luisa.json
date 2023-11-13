@@ -1,0 +1,56 @@
+{
+  "Cliente": {
+    "idCliente 1": {
+      "Apellidos": "Garcia",
+      "Correo": "juliogar21@gmail.com",
+      "Direccion": "Tactic",
+      "Nombre": "Julio",
+      "Telefono": 23048506
+    },
+    "idCliente 2": {
+      "Apellidos": "Hernandez",
+      "Correo": "marihernan45@gmail.com",
+      "Direccion": "San Pedro Carcha",
+      "Nombre": "Marizol",
+      "Telefono": 32420822
+    },
+    "idCliente 3": {
+      "Apellidos": "Barrios",
+      "Correo": "josebar64@gmail.com",
+      "Direccion": "San Juan Chamelco",
+      "Nombre": "Jose",
+      "Telefono": 24738095
+    }
+  },
+  "Cliente_Evento": {
+    "idCE1": {
+      "idCliente": "idCliente1",
+      "idEvento": "idEvento1"
+    },
+    "idCE2": {
+      "idCliente": "idCliente2",
+      "idEvento": "idEvento2"
+    },
+    "idCE3": {
+      "idCliente": "idCliente3",
+      "idEvento": "idEvento3"
+    }
+  },
+  "Evento": {
+    "idEvento 1": {
+      "Descripcion": "Fiesta al aire libre con disfrases",
+      "Nombre": "Cumpleaños",
+      "Precio": 125
+    },
+    "idEvento 2": {
+      "Descripcion": "En el salon Casa San Juan",
+      "Nombre": "Boda",
+      "Precio": "3,500"
+    },
+    "idEvento 3": {
+      "Descripcion": "Auditorio ",
+      "Nombre": "Baby Shawer",
+      "Precio": "3,725.00"
+    }
+  }
+}
