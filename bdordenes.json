@@ -1,0 +1,54 @@
+{
+  "Clientes": {
+    " campos": {
+      "Correo": "carlachamam23@gmail.com",
+      "Direccion": "Chibujbu",
+      "Nombre": "Carla Chaman",
+      "Telefono": 45673820,
+      "idCliente": 1
+    }
+  },
+  "DetalleOrden": {
+    "Campos": {
+      "cantidad": 3,
+      "iddetalle": 1,
+      "idorden": 1,
+      "idproducto": 1,
+      "precioUnitario": 7.25
+    }
+  },
+  "Factura": {
+    "Campos": {
+      "Fecha": "2023/09/22",
+      "Total": 50.75,
+      "idfactura": 1,
+      "idorden": 1
+    }
+  },
+  "Orden": {
+    "campos": {
+      "Fecha": "2023/09/22",
+      "idCliente": 1,
+      "idorden": 1,
+      "total": 50.75
+    }
+  },
+  "Productos": {
+    "Campos": {
+      "Descripcion": "Vasos del mundial",
+      "Nombre": "Vasos",
+      "Precio": 15,
+      "Stock": 25,
+      "idProducto": 1
+    }
+  },
+  "Proveedores": {
+    "Campos": {
+      "Correo": "santiramirez45@gmail.com",
+      "Direccion": "Chamelco A.V",
+      "Nombre": "Santiago Ramirez",
+      "Telefono": 34095723,
+      "idProveedor": 1
+    }
+  }
+}
